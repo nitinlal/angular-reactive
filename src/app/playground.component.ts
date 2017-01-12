@@ -65,5 +65,7 @@ export class PlaygroundComponent {
     // flow diagram
     // -------c--------------c-----------c---------cc---
     // -------0--1--2--3--4--05--16--27--038-------
+
+    //TODO cancel subscription on double click
   }
 }
