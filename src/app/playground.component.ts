@@ -57,7 +57,8 @@ export class PlaygroundComponent {
       .subscribe(clock => {
         clock
           .subscribe(x => {
-            return console.log(x)
+            console.log(x);
+            return this.clickObservableRes = x;
           });
       });
 
