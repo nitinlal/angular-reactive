@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple testing page before a functional product {{title}}</title>
+</head>
+<body>
+
+  Test module:
+  <button id='btn' (click)="onSelect()">Click me!</button>
+  Response from Click:
+  <p>
+  <div>
+    <span style="float: left">Response one: {{responseOne}}</span>
+    <span style="float: right">Response two : {{responseTwo}}</span>
+  </div>
+
+  <div>
+    <p>
+      <button id='click' (click)="obs.next($event)">Observable Click!</button>
+    <p>
+      {{clickObservableRes}}
+    </p>
+  </div>
+</body>
+</html>

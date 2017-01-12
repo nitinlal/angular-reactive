@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hey! these are all the users!</title>
+</head>
+<body>
+
+  <button (click)="getUsers()">Get Users!</button>
+  <span>Users from Api:</span>
+  <br/>
+
+  Group A:
+  <li *ngFor="let response of groupAs">
+    {{ response }}
+  </li>
+
+  <br/>
+
+  Group B:
+  <li *ngFor="let response of groupBs">
+    {{ response }}
+  </li>
+
+  <br/>
+  All responses:
+  {{responses}}
+</body>
+</html>

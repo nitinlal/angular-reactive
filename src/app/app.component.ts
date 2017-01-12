@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {ButtonComponent} from './button.component';
+import {UserComponent} from './user.component';
 
 @Component({
   selector: 'app-root',
